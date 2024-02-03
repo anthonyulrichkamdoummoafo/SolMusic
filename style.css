@@ -1,0 +1,84 @@
+*{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    background: #0a0825;
+    padding: 30px;
+}
+.container-fluid a{
+    padding-right: 2%;
+}
+span{
+    color: #ff02b7;
+}
+.container-fluid a{
+    transition: transform 0.3s; 
+    color: #fff;
+}
+.container-fluid a:hover {
+    transform: scale(1.04);
+    color: white; 
+}
+.navbar-toggler{
+    border: none;
+    font-size: 1.25em;
+}
+.navbar-toggler-icon{
+    background-color: #fff;
+    color: #fff;
+    border-radius: 5px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.offcanvas-body{
+    background: #0a0825;
+}
+.container-fluid h1{
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+.hero-section{
+    width: 100%;
+    min-height: 100vh;
+    background: #100d44;
+    padding-top: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 15px;
+}
+.card .card-body{
+    background: #100d44;
+    color: #fff;
+}
+.card{
+    border: none;
+}
+.card .card-body .card-title{
+    font-size: 80px;
+    line-height: .8;
+    padding-bottom: 20px;
+}
+.card .card-body .link{
+    background-color: rgb(25, 85, 141);
+    border: rgb(25, 85, 141);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
+.card .card-body .link1{
+    background-color: #ff02b7;
+    border: #ff02b7;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 600;
+}
+.card .card-body .card-text{
+    padding-bottom: 20px;
+}
